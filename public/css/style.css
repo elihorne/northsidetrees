@@ -51,14 +51,15 @@ h1, h2, h3, h4{
 /*INTRO*/
 
 #intro{
-  border-bottom:1px solid #ddd;
+  border-bottom:1px solid #1f3915;
   font-size:18px;
   position:fixed;
   top:0;
+  color:#fff;
   width:100%;
-  background:#fff;
+  background:-webkit-linear-gradient(#294a1b, #244018);
   font-size:18px;
-  box-shadow:0 1px 3px rgba(0,0,0,0.05);
+  box-shadow:0 1px 3px rgba(0,0,0,0.5);
 }
 
 #intro .wrap{
