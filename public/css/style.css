@@ -25,6 +25,7 @@ h1, h2, h3, h4{
 
 .block{
   border-bottom:1px solid #ddd;
+  border-top:1px solid #fff;
   min-height:350px;
   overflow:hidden;
   background:-webkit-linear-gradient(#fff, #f3f3f3);
