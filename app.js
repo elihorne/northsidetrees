@@ -6,7 +6,7 @@
 var express = require('express')
   , routes = require('./routes');
 
-var app = module.exports = express.createServer();
+var app = express();
 
 // Configuration
 
@@ -21,10 +21,12 @@ app.configure(function(){
 
 app.configure('development', function(){
   app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
+  app.locals.pretty = true;
 });
 
 app.configure('production', function(){
   app.use(express.errorHandler());
+  app.locals.pretty = true;
 });
 
 // Routes

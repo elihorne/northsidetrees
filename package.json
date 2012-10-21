@@ -6,7 +6,7 @@
     "npm": ">= 1.1.0"
   },
   "dependencies": {
-    "express": ">=2.5.0",
-    "jade": ">= 0.0.1"
+    "express": "3.x",
+    "jade": "0.25"
   }
 }
