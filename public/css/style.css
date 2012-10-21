@@ -23,12 +23,12 @@ h1, h2, h3, h4{
 
 .left{
   float:left;
-  width:65%;
+  width:35%;
 }
 
 .right{
   float:right;
-  width:35%;
+  width:60%;
 }
 
 .wrap{
